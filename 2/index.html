@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="edicion.css">
+    <title>Curriculum Vitae</title>
+</head>
+
+<body>
+    <!-- seccion inicio -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#curriculum" onclick="seleccionar(this)">HOJA DE VIDA</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidas y bienvenidos</p>
+                <h2>Soy <span>Nina Bal</span>, Modelo publicitaria</h2>
+                <p class="descripcion">Soy una canina multipremiada internacionalmente por cualidades y habilidades excepcionales, te invito a que me conozcas </p>
+                <a href="#curriculum">Ir a Curriculum</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion sobre mi -->
+
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="C:\Users\balbu\OneDrive\Escritorio\2\Imagenes\1.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Nina Bal</span> </h2>
+            <h3>Modelo publicitaria</h3>
+            <p>A lo largo de mi vida he recibido varias distinciones honorificas con reconocimiento nacional e internacional avalados por CPP -Comite de Perras Preciosas- </p>
+          
+            <a href="#">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- seccion servicios -->
+
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>ACOMPAÑAMIENTO DE HUMANOS</h4>
+                <!-- <hr>-->
+                <ul class="servicios-tag">
+                    <li>En epocas de estudio</li>
+                    <li>En mercurio retrogrado</li>
+                    <li>En silencio o euforia segun el cliente desee</li>
+                </ul>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>MODELO TALLA CANICHE</h4>
+                 <!-- <hr>-->
+                <ul class="servicios-tag">
+                    <li>Indumentaria</li>
+                    <li>Alimentos</li>
+                    <li>Pipetas</li>
+                </ul>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>GUIA ESPIRITUAL</h4>
+                 <!-- <hr>-->
+                <ul class="servicios-tag">
+                    <li>Contemplacion </li>
+                    <li>Analizo situaciones</li>
+                    <li>SEO en D.O.R.M.I.R.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>CONFIDENCIAS </h4>
+                <!-- <hr>-->
+                <ul class="servicios-tag">
+                    <li>Secreto profesional segun ley 30.987</li>
+                </ul>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>PASEO PERSONAS</h4>
+              <!-- <hr>-->
+                <ul class="servicios-tag">
+                    <li>Plazas</li>
+                    <li>Supermercados</li>
+                    <li>Veredas</li>
+                </ul>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                <h4>CONTROL DE CALIDAD DE PELUCHES</h4>
+               <!-- <hr>-->
+                <ul class="servicios-tag">
+                    <li>Osos</li>
+                    <li>Elefantes</li>
+                    <li>Perros</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion habilidades -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Correr desaforadamente</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="hb1"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Comer pollito</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="hb2"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Buscar atencion</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="hb3"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Amar desinteresadamente</p>
+                <span class="porcentaje">100%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="hb4"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--seccion cv -->
+    <section id="curriculum">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="C:\Users\balbu\OneDrive\Escritorio\2\Imagenes\8.jpg" alt="">
+                <div class="info">
+                    <h4>Experiencia</h4>
+                    <p>Modelo Pumba</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="C:\Users\balbu\OneDrive\Escritorio\2\Imagenes\6.jpg" alt="">
+                <div class="info">
+                    <h4>Experiencia</h4>
+                    <p>Control Calidad ELPH</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="C:\Users\balbu\OneDrive\Escritorio\2\Imagenes\10.jpg" alt="">
+                <div class="info">
+                    <h4>Experiencia</h4>
+                    <p>Paseadora de personas</p>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+
+    <!-- Seccion contacto -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- seccion footer -->
+    <footer>
+        <p>Todos los derechos reservados - 2022</p>
+
+    </footer>
+
+    <script src="accion.js"></script>
+</body>
+
+</html>
